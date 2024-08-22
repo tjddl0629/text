@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.top {
+    width: 100%;
+    height: 1630px;
+    background-image: url(../images/KR-ko-20240819-TRIFECTA-perspective_WEB_b52e8b72-0adb-4297-b373-a69e092f69e4_large.jpg);
+    background-size: cover;
+}
+
+.top::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(to top, black, transparent);
+}
+
+.logo {
+    position: relative;
+    height: 90px;
+    z-index: 2;
+}
+
+.logo img {
+    width: 140px;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    margin-left: 0;
+}
+
+.logo a {
+    position: absolute;
+    top: 43%;
+    right: 5%;
+}
+
+.btn-login {
+    display: inline-block;
+    background: rgba(252, 13, 13, 0.897);
+    color: #fff;
+    text-decoration: none;
+    padding: 9px 13px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 500;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+.btn-login:hover {
+    opacity: 0.9;
+}
+
+.language select {
+    position: absolute;
+    top: 4%;
+    right: 13.5%;
+    padding: 13px 25px;
+    z-index: 3;
+    background-color: black;
+    color: gray;
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid rgb(92, 89, 89);
+    border-radius: 5px;
+}
+
+.middle {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 97px;
+    color: #fff;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+.content:nth-child(1) {
+    font-weight: bolder;
+    font-size: 60px;
+    line-height: 1.2;
+}
+
+.content:nth-child(2) {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 4.0;
+    margin: 0 0 5px;
+}
+
+.content:nth-child(3) {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 30px;
+}
+
+
+.box {
+    background-color: white;
+    border: 1px solid rgb(97, 96, 96);
+    padding: 20px 350px 16px 16px;
+    font-size: 16px;
+    font-weight: 550;
+    color: white;
+}
+
+.box::placeholder {
+    color: rgb(184, 179, 179);
+}
+
+.btn-start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    background: rgba(241, 24, 24, 0.897);
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 15px 27px;
+}
+
+.btn-start:hover {
+    opacity: 0.9;
+}
+
+select{
+    background-color: red;
+    text-align: center;
+}
+
+select option {
+    text-align: center;
+    width: 100px;
+    margin: auto;
+    background-color: aqua;
+}
